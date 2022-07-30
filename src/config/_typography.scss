@@ -1,0 +1,67 @@
+html {
+    @apply font-body;
+
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px);
+    transform: scaleX(0);
+    height: 12px;
+    bottom: 6px;
+    left: -2px;
+    background-color: lightgrey;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    z-index: -1;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+ul {
+    font-size: 2rem;
+}
+
+ol {
+    font-size: 2rem;
+}

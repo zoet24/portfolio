@@ -1,8 +1,12 @@
 // TAILWIND
 @tailwind base;
-@tailwind components;
 
 // CONFIG
+@import 'assets/fonts/fonts';
+@import 'config/base';
+@import 'config/containers';
+@import 'config/typography';
+@import 'config/utilities';
 
 // SECTIONS
 @import 'sections/contact/contact';
@@ -10,5 +14,6 @@
 @import 'sections/portfolio/portfolio';
 
 // COMPONENTS
+@import 'components/nav/nav';
 
 @tailwind utilities;

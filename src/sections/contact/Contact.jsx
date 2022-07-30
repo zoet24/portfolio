@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Contact = () => {
     return (
-      <section className='header'>
+      <section className='contact container'>
           Hello!
       </section>
     )
 }
 
-export default Header
+export default Contact

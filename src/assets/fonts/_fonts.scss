@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Gotham Narrow";
+	src: url("GothamNarrow-Black.woff2") format("woff2"),
+		url("GothamNarrow-Black.woff") format("woff"),
+		url("GothamNarrow-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Narrow Book";
+	src: url("GothamNarrow-Book.woff2") format("woff2"),
+		url("GothamNarrow-Book.woff") format("woff"),
+		url("GothamNarrow-Book.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Coolvetica";
+	src: url("coolvetica-rg-webfont.woff2") format("woff2"),
+		url("coolvetica-rg-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Coolvetica Heavy";
+	src: url("coolvetica-hv-webfont.woff2") format("woff2"),
+		url("coolvetica-hv-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

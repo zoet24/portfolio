@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-      <section className='header'>
+      <section className='portfolio container'>
           Hello!
       </section>
     )

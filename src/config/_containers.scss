@@ -1,0 +1,7 @@
+.container {
+    @apply w-full h-screen m-0 training-wheels;
+
+    @screen xl {
+        @apply mx-auto max-w-screen-xl;
+    }
+}

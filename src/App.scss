@@ -1,0 +1,14 @@
+// TAILWIND
+@tailwind base;
+@tailwind components;
+
+// CONFIG
+
+// SECTIONS
+@import 'sections/contact/contact';
+@import 'sections/header/header';
+@import 'sections/portfolio/portfolio';
+
+// COMPONENTS
+
+@tailwind utilities;

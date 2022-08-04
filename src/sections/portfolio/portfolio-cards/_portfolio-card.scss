@@ -1,0 +1,23 @@
+.portfolio-card {
+    .portfolio-card__overlay {
+        @apply transition-fast;
+
+        background: rgba(0,0,0,0);
+    }
+
+    .portfolio-card__overlay-content {
+        @apply transition-fast;
+
+        opacity: 0;
+    }
+}
+
+.portfolio-card:hover {
+    .portfolio-card__overlay {
+        background: rgba(0,0,0,0.75);
+    }
+
+    .portfolio-card__overlay-content {
+        opacity: 1;
+    }
+}

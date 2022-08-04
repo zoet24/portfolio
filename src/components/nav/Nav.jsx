@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../../assets/images/zoe-headshot.jpeg'
+import headshot from '../../assets/images/zoe-headshot-2.jpg'
 
 const Nav = () => {
     return (

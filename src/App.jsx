@@ -7,10 +7,10 @@ import Contact from './sections/contact/Contact'
 const App = () => {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <Portfolio />
-      <Contact />
+      {/* <Contact /> */}
     </>
   )
 }

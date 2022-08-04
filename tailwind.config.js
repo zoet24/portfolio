@@ -5,9 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      body: ['Gotham Narrow', 'sans-serif'],
-      light: ['Gotham Narrow Book', 'sans-serif'],
-      medium: ['Coolvetica', 'sans-serif'],
+      body: ['Coolvetica', 'sans-serif'],
       heavy: ['Coolvetica Heavy', 'sans-serif'],
     },
     screens: {

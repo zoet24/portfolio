@@ -1,7 +1,7 @@
 html {
     @apply font-body;
 
-    font-size: 16px;
+    font-size: 24px;
 }
 
 h1 {
@@ -9,34 +9,37 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1rem;
+    line-height: 24px;
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 0.85rem;
 }
 
 h6 {
-    font-size: 2rem;
+    font-size: 0.7rem;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1rem;
+    line-height: 24px;
 }
 
 a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: inline-block;
     position: relative;
     z-index: 1;
+    line-height: 24px;
 }
 
 a:after {
@@ -59,9 +62,9 @@ a:hover:after {
 }
 
 ul {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 ol {
-    font-size: 2rem;
+    font-size: 1rem;
 }

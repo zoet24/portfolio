@@ -12,8 +12,17 @@
 @import 'sections/contact/contact';
 @import 'sections/header/header';
 @import 'sections/portfolio/portfolio';
+@import 'sections/portfolio/portfolio-cards/portfolio-card';
 
 // COMPONENTS
+@import 'components/icons/icon';
 @import 'components/nav/nav';
 
 @tailwind utilities;
+
+@layer utilities {
+    .transition-fast {
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+}

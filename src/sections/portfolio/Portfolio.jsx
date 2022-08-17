@@ -1,16 +1,26 @@
 import React from 'react'
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+
+import AppContext from '../../context/AppContext';
 import PortfolioCard from './portfolio-cards/PortfolioCard'
 
 const Portfolio = () => {
+    // Observe if section is > 50% in viewport
+    const { setActiveNav } = useContext(AppContext)
+
     const { ref, inView } = useInView({
       threshold: 0.51
     });
 
     useEffect(() => {
-      console.log(inView)
-    },[inView])
+      const timer = setTimeout(() => {
+        if (inView) {
+          setActiveNav('#portfolio');
+        }
+      }, 500);
+      return () => clearTimeout(timer);
+    }, [inView, setActiveNav]);
 
     return (
       <section ref={ref} className='portfolio' id="portfolio">

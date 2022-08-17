@@ -1,4 +1,8 @@
 import React from 'react'
+import { useContext, useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
+
+import AppContext from '../../context/AppContext';
 
 const Home = () => {
   const headings = React.createRef();
@@ -11,8 +15,24 @@ const Home = () => {
     console.log("Fare the well!")
   }
 
+  // Observe if section is > 50% in viewport
+  const { setActiveNav } = useContext(AppContext)
+
+  const { ref, inView } = useInView({
+    threshold: 0.51
+  });
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (inView) {
+        setActiveNav('#home');
+      }
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [inView, setActiveNav]);
+
     return (
-      <header className='home' id='home'>
+      <header ref={ref} className='home' id='home'>
         <div className='container flex flex-col items-center justify-center'>
           <h1 className='training-wheels'>Hi, I'm Zoe!</h1>
           <div className='grid grid-cols-2 gap-x-2 training-wheels'>

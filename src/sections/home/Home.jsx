@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Home = () => {
   const headings = React.createRef();
 
   const headerScrollDown = () => {
@@ -11,7 +11,7 @@ const Header = () => {
     console.log("Fare the well!")
   }
     return (
-      <header className='header'>
+      <header className='home' id='home'>
         <div className='container flex flex-col items-center justify-center'>
           <h1 className='training-wheels'>Hi, I'm Zoe!</h1>
           <div className='grid grid-cols-2 gap-x-2 training-wheels'>
@@ -38,4 +38,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Home

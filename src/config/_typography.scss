@@ -1,60 +1,60 @@
 html {
     @apply font-body;
 
-    font-size: 24px;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 24px;
 }
 
 h5 {
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 h6 {
-    font-size: 0.7rem;
+    font-size: 0.83rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 24px;
 }
 
 a {
-    font-size: 1rem;
+    font-size: 1.25rem;
     display: inline-block;
     position: relative;
     z-index: 1;
     line-height: 24px;
 }
 
-a:after {
-    content: '';
-    position: absolute;
-    width: calc(100% + 4px);
-    transform: scaleX(0);
-    height: 12px;
-    bottom: 6px;
-    left: -2px;
-    background-color: lightgrey;
-    transform-origin: bottom left;
-    transition: transform 0.25s ease-out;
-    z-index: -1;
-}
+// a:after {
+//     content: '';
+//     position: absolute;
+//     width: calc(100% + 4px);
+//     transform: scaleX(0);
+//     height: 12px;
+//     bottom: 6px;
+//     left: -2px;
+//     background-color: lightgrey;
+//     transform-origin: bottom left;
+//     transition: transform 0.25s ease-out;
+//     z-index: -1;
+// }
 
 a:hover:after {
     transform: scaleX(1);
@@ -62,9 +62,9 @@ a:hover:after {
 }
 
 ul {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 ol {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }

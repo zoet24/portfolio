@@ -1,16 +1,18 @@
 import React from 'react'
 import Nav from './components/nav/Nav'
-import Header from './sections/header/Header'
+import Home from './sections/home/Home'
 import Portfolio from './sections/portfolio/Portfolio'
 import Contact from './sections/contact/Contact'
 
 const App = () => {
   return (
     <>
-      {/* <Nav /> */}
-      <Header />
-      <Portfolio />
-      {/* <Contact /> */}
+      <Nav />
+      <main>
+        <Home />
+        <Portfolio />
+        <Contact />
+      </main>
     </>
   )
 }

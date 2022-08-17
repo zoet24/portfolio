@@ -1,6 +1,6 @@
 // Default
 .icon {
-    @apply h-6 w-6 p-0.5 rounded-full border-2 border-black flex items-center justify-center;
+    @apply h-10 w-10 p-1 rounded-full border-2 border-black flex items-center justify-center transition-fast;
 
     svg {
         @apply h-full w-full;
@@ -18,5 +18,10 @@
 
 // Sizes
 .icon--large {
-    @apply h-8 w-8 p-1;
+    @apply h-12 w-12 p-1.5;
+}
+
+// State
+.icon--active {
+    transform: scale(1.25);
 }

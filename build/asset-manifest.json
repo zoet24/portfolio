@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef591ce8.css",
+    "main.js": "/static/js/main.11f36483.js",
+    "static/media/zoe-headshot-2.jpg": "/static/media/zoe-headshot-2.ae2c9dddb97f3371ddd3.jpg",
+    "static/media/GothamNarrow-Book.ttf": "/static/media/GothamNarrow-Book.0125338ef3c4ce031a02.ttf",
+    "static/media/GothamNarrow-Black.ttf": "/static/media/GothamNarrow-Black.1236fcbfd4fae51e63d9.ttf",
+    "static/media/GothamNarrow-Book.woff": "/static/media/GothamNarrow-Book.0f45f220dc22ab2d4a6c.woff",
+    "static/media/coolvetica-rg-webfont.woff": "/static/media/coolvetica-rg-webfont.6a9ad3ccc3d5f3f6906e.woff",
+    "static/media/coolvetica-hv-webfont.woff": "/static/media/coolvetica-hv-webfont.09c5693861379ff41ca3.woff",
+    "static/media/GothamNarrow-Black.woff": "/static/media/GothamNarrow-Black.2fe0f42e60e44682dc45.woff",
+    "static/media/GothamNarrow-Book.woff2": "/static/media/GothamNarrow-Book.e737a2a2428fbb874ef1.woff2",
+    "static/media/coolvetica-rg-webfont.woff2": "/static/media/coolvetica-rg-webfont.25daac9b5ef0f40d7462.woff2",
+    "static/media/coolvetica-hv-webfont.woff2": "/static/media/coolvetica-hv-webfont.d5ed7f10699e61a2d861.woff2",
+    "static/media/GothamNarrow-Black.woff2": "/static/media/GothamNarrow-Black.be3b736172dbd70b59f6.woff2",
+    "index.html": "/index.html",
+    "main.ef591ce8.css.map": "/static/css/main.ef591ce8.css.map",
+    "main.11f36483.js.map": "/static/js/main.11f36483.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef591ce8.css",
+    "static/js/main.11f36483.js"
+  ]
+}

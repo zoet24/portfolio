@@ -4,18 +4,18 @@ import {DiHtml5} from 'react-icons/di';
 
 const PortfolioCard = () => {
     return (
-      <article className='portfolio-card max-w-[400px] relative training-wheels p-3 mx-auto'>
+      <article className='portfolio-card max-w-[400px] relative rounded-xl overflow-hidden training-wheels mx-auto'>
         <div className='portfolio-card__overlay absolute top-0 bottom-0 left-0 right-0 z-10'>
             <div className='portfolio-card__overlay-content flex items-center justify-center space-x-3 w-full h-full'>
-              <Icon>
+              <Icon size={"large"} colour={"white"}>
                 <DiHtml5 />
               </Icon>
-              <Icon>
+              <Icon size={"large"} colour={"white"}>
                 <DiHtml5 />
               </Icon>
             </div>
         </div>
-        <div className='w-full pb-[100%] relative overflow-hidden'>
+        <div className='w-full pb-[100%] relative overflow-hidden '>
           {/* Image */}
           <img className="absolute object-cover w-full h-full top-0 left-0 bottom-0 right-0" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" />
           {/* Category */}
@@ -35,7 +35,7 @@ const PortfolioCard = () => {
             <Icon>
               <DiHtml5 />
             </Icon>
-            <Icon size="small">
+            <Icon>
               <DiHtml5 />
             </Icon>
             <Icon>

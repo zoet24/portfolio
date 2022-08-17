@@ -1,5 +1,22 @@
+// Default
 .icon {
+    @apply h-6 w-6 p-0.5 rounded-full border-2 border-black flex items-center justify-center;
+
     svg {
         @apply h-full w-full;
     }
+}
+
+// Colours
+.icon--white {
+    @apply border-white;
+
+    svg {
+        @apply text-white;
+    }
+}
+
+// Sizes
+.icon--large {
+    @apply h-8 w-8 p-1;
 }

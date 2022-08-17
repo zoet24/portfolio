@@ -10,6 +10,7 @@ const Home = () => {
   const headerScrollUp = () => {
     console.log("Fare the well!")
   }
+
     return (
       <header className='home' id='home'>
         <div className='container flex flex-col items-center justify-center'>

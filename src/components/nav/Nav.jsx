@@ -1,5 +1,7 @@
 import React from 'react'
-import {useState} from 'react'
+import {useContext, useState} from 'react'
+import AppContext from '../../context/AppContext';
+
 import Icon from '../../components/icons/Icon'
 // import headshot from '../../assets/images/zoe-headshot-2.jpg'
 import {FaHome} from 'react-icons/fa';
@@ -8,7 +10,7 @@ import {AiFillMessage} from 'react-icons/ai';
 
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState('#')
+    const { activeNav, setActiveNav } = useContext(AppContext)
 
     return (
       <nav className='nav fixed bottom-0 left-0 right-0 z-30'>
